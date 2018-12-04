@@ -140,7 +140,7 @@ def send_email(mail_body, log_list):
     receivers = MailConfig.debuglist
     # 发送邮件主题
     t = time.strftime("%Y%m%d", time.localtime())
-    subject = '[TruckManager]AndroidMonkeyTestReport_' + t
+    subject = '[xxxx]AndroidMonkeyTestReport_' + t
     # 发送邮箱服务器
     smtpserver_host = MailConfig.mail_host
     smtp_port = MailConfig.mail_port

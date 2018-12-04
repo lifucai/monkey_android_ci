@@ -5,8 +5,7 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 class jenkinsApi():
 
-    #jenkins_server_url = "http://core.jenkins.chinawayltd.com"
-    #job_name = "android_truck_manager"
+    
     def getlastSuccessfulBuildNum(self):
 
         user_id='xxxx'
